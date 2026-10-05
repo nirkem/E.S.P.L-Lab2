@@ -1,3 +1,6 @@
+#ifndef LINEPARSER_H
+#define LINEPARSER_H
+
 #define MAX_ARGUMENTS 256
 
 typedef struct cmdLine
@@ -22,3 +25,5 @@ void freeCmdLines(cmdLine *pCmdLine);		/* Free parsed line */
 /* Replaces arguments[num] with newString */
 /* Returns 0 if num is out-of-range, otherwise - returns 1 */
 int replaceCmdArg(cmdLine *pCmdLine, int num, const char *newString);
+
+#endif

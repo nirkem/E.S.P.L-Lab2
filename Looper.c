@@ -29,7 +29,7 @@ void handler(int sig)
 	signal(sig, handler);
 }
 
-int main(int argc, char **argv)
+int main(void)
 {
 	printf("Starting the program (pid %d)\n", getpid());
 	fflush(stdout);
