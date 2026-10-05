@@ -1,6 +1,6 @@
 # myshell: a Unix shell in C
 
-[![test](https://github.com/nirkem/E.S.P.L-Lab2/actions/workflows/test.yml/badge.svg)](https://github.com/nirkem/E.S.P.L-Lab2/actions/workflows/test.yml)
+[![test](https://github.com/nirkem/Unix-shell/actions/workflows/test.yml/badge.svg)](https://github.com/nirkem/Unix-shell/actions/workflows/test.yml)
 
 A command interpreter built directly on the Linux process API: `fork`, `execvp`, `waitpid`, `kill`, `pipe` and `dup2`. It runs pipelines with redirection, keeps track of every process it starts, and remembers your last 20 commands. Written for the Extended Systems Programming Lab (ESPL) at Ben-Gurion University in 2023 (labs 2 and C).
 
